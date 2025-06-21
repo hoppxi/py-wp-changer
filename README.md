@@ -1,17 +1,62 @@
-### Wallpaper Changer Script
+## TODO list
 
-This script changes your desktop wallpaper using a random image from Picsum. The configuration (like the wallpaper path) is stored in a `.env`.
+### **Wallpaper Sources**
 
-### Setup:
+- [ ] **Different APIs** (Unsplash, Pexels, Bing, Reddit `r/EarthPorn`)
+- [ ] **Local wallpaper folder support** (shuffle from a folder)
+- [ ] **Themed categories** (nature, abstract, tech)
+- [ ] **Search keyword support** (e.g., `?q=mountains`)
+- [ ] **Support for user-submitted URLs**
 
-1. **Create `.env` File**: 
-   ```
-   WALLPAPER_PATH=C:\path\to\wallpaper-changer
-   ```
+---
 
-2. **Run Batch Script**: Create a shortcut of the batch script `wallpaper-changer.bat` then set hotkey for it using properties.
+### **Scheduling and Automation**
 
-### Requirements:
+- [ ] **Periodic auto-change** (every X minutes/hours)
+- [ ] **Time-based wallpaper (morning/day/night)**
+- [ ] **Startup autorun toggle** (on system boot)
+- [ ] **Change on each login/unlock**
 
-- Python
-- `requests` library for downloading images (`pip install requests`)
+---
+
+### **Settings & Config**
+
+- [ ] **Config file support** (`config.json`)
+- [ ] **Command-line flags**
+- [ ] **Theme support (light/dark wallpaper based on system)**
+
+---
+
+### **Smart Behavior**
+
+- [ ] **Avoid repeat wallpapers**
+- [ ] **Image resolution detection (match screen)**
+- [ ] **Set wallpapers per monitor (multi-display)**
+- [ ] **Auto-clean old wallpapers**
+- [ ] **Wallpaper history and revert**
+
+---
+
+### **Image Handling**
+
+- [ ] **Set wallpaper style** (fit, fill, stretch, tile, center)
+- [ ] Lively Wallpaper)**
+- [ ] **Image preview before setting**
+- [ ] **Image caching / compression option**
+
+---
+
+### **UI / UX**
+
+- [ ] **Minimal GUI**
+- [ ] **System tray app**
+- [ ] **Wallpaper change hotkey**
+- [ ] **Notification popup when wallpaper changes**
+
+---
+
+### **Security / Robustness**
+
+- [ ] **Safe mode: validate image format and size**
+- [ ] **Timeout & retry mechanism**
+- [ ] **Logging system (with daily logs)**
